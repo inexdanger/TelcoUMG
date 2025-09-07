@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -83,11 +83,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tbl_Proveedores.cs">
+    <Compile Include="frm_Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tbl_Proveedores.Designer.cs">
-      <DependentUpon>tbl_Proveedores.cs</DependentUpon>
+    <Compile Include="frm_Proveedores.Designer.cs">
+      <DependentUpon>frm_Proveedores.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frm_Clientes.resx">
       <DependentUpon>frm_Clientes.cs</DependentUpon>
@@ -109,8 +109,8 @@
       <DesignTime>True</DesignTime>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="tbl_Proveedores.resx">
-      <DependentUpon>tbl_Proveedores.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Proveedores.resx">
+      <DependentUpon>frm_Proveedores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

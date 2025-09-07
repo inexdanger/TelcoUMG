@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     internal class CD_Conexion
     {
-        private SqlConnection db_conexion = new SqlConnection("Server=localhost;Database=TelcoUMG;Uid=admin;Pwd=admin;");
+        private SqlConnection db_conexion = new SqlConnection("Server=localhost;Database=TelcoUMG;Uid=admin;Pwd=root;");
          
         public SqlConnection MtdAbrirConexion()
         {

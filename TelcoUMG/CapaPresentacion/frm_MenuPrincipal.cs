@@ -104,7 +104,7 @@ namespace CapaPresentacion
 
         private void btn_Proveedores_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<tbl_Proveedores>();
+            AbrirFormulario<frm_Proveedores>();
         }
     }
 }
